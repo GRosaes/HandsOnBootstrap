@@ -1,0 +1,165 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    padding-top: 56px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Slightly darker background */
+}
+
+.navbar {
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.services-section {
+    padding: 40px 0;
+}
+
+.service-icon {
+    font-size: 50px;
+    color: #ffd700; /* Changed from blue to gold */
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,.05);
+    height: 100%;
+    background-color: #ffffff; /* White cards for contrast */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,.1);
+    border-color: #ffd700; /* Gold border on hover */
+}
+
+.btn-primary {
+    background-color: #ffd700; /* Changed from blue to gold */
+    border: none;
+    padding: 8px 20px;
+    transition: background-color 0.3s ease;
+    color: #000; /* Black text for better contrast on gold */
+}
+
+.btn-primary:hover {
+    background-color: #ffbd00; /* Darker gold on hover */
+    color: #000;
+}
+
+.section-title {
+    margin-bottom: 2rem;
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 3px;
+    background-color: #ffd700; /* Changed from blue to gold */
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    background-color: #ffffff; /* White background for forms */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.05);
+}
+
+.contact-info {
+    margin-top: 20px;
+    padding: 2rem;
+    background-color: #ffffff; /* White background for forms */
+    border-radius: 8px;
+}
+
+.map-container {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 2rem 0;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.footer {
+    background-color: #212529;
+    color: #fff;
+    padding: 2rem 0;
+    margin-top: 3rem;
+    flex-shrink: 0;
+}
+
+.content-wrapper {
+    flex: 1 0 auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@media (max-width: 768px) {
+    .services-section {
+        padding: 20px 0;
+    }
+
+    .carousel-item img {
+        height: 300px;
+    }
+    
+    .section-title {
+        text-align: center;
+    }
+    
+    .section-title::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .navbar-brand {
+        margin-left: 15px;
+    }
+    
+    .container {
+        padding: 0 20px;
+    }
+}
+
+/* Update any Bootstrap primary color overrides */
+.text-primary {
+    color: #ffd700 !important;
+}
+
+.bg-primary {
+    background-color: #ffd700 !important;
+}
+
+.border-primary {
+    border-color: #ffd700 !important;
+}

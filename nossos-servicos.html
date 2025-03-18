@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossos Serviços - Minha Empresa</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Minha Empresa</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quem-somos.html">Quem Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="nossos-servicos.html">Nossos Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contato</a>
+                    </li>
+                </ul>
+                <div class="dropdown">
+                    <button class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="bi bi-person-circle"></i> Olá, Usuário!
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
+                        <li><a class="dropdown-item" href="#"><i class="bi bi-person"></i> Meu Perfil</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="bi bi-key"></i> Alterar Senha</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#"><i class="bi bi-box-arrow-right"></i> Sair</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="content-wrapper" style="margin-top: 76px;">
+        <div class="container my-5">
+            <h2 class="section-title mb-5">Nossos Serviços</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 text-center shadow-sm">
+                        <div class="card-body">
+                            <div class="service-icon mb-3">
+                                <i class="bi bi-briefcase text-primary" style="font-size: 3rem;"></i>
+                            </div>
+                            <h3 class="h5 card-title">Serviço 1</h3>
+                            <p class="card-text">Descrição detalhada do serviço 1 e seus benefícios para o cliente.</p>
+                            <a href="#" class="btn btn-primary mt-3">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 text-center shadow-sm">
+                        <div class="card-body">
+                            <div class="service-icon mb-3">
+                                <i class="bi bi-gear text-primary" style="font-size: 3rem;"></i>
+                            </div>
+                            <h3 class="h5 card-title">Serviço 2</h3>
+                            <p class="card-text">Descrição detalhada do serviço 2 e seus benefícios para o cliente.</p>
+                            <a href="#" class="btn btn-primary mt-3">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 text-center shadow-sm">
+                        <div class="card-body">
+                            <div class="service-icon mb-3">
+                                <i class="bi bi-chat text-primary" style="font-size: 3rem;"></i>
+                            </div>
+                            <h3 class="h5 card-title">Serviço 3</h3>
+                            <p class="card-text">Descrição detalhada do serviço 3 e seus benefícios para o cliente.</p>
+                            <a href="#" class="btn btn-primary mt-3">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white py-4 mt-auto">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2025 Minha Empresa. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
